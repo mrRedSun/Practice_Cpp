@@ -8,5 +8,6 @@ int main()
 		throw 5;
 	}
 	vector <int> Vec;
+	int intel = 128;
 	system("pause");
 }
