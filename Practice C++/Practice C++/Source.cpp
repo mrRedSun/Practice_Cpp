@@ -2,6 +2,6 @@
 
 int main()
 {
-	
+	cout << "Hello, world! \n";
 	system("pause");
 }
