@@ -7,5 +7,6 @@ int main()
 	while (true) {
 		throw 5;
 	}
+	vector <int> Vec;
 	system("pause");
 }
