@@ -6,14 +6,14 @@
 using namespace std;
 
 void output_matrix(int ** matrix, int m, int n) {
-	
+
 	Sleep(1000);
 	system("cls");
 
 	cout << "Your matrix: \n";
-	for (int i = 0; i < m; i++) {
-		for (int j = 0; j < n; j++) {
-			cout << matrix[i][j] << "\t";
+	for (int i = 0; i < n; i++) {
+		for (int j = 0; j < m; j++) {
+			cout << matrix[j][i] << "\t";
 		}
 		cout << endl << endl;
 	}

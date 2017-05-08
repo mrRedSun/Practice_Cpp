@@ -7,7 +7,7 @@ double func(double x) {
 }
 
 int main(int argc, char const *argv[]) {
-    cout << 2^2;
+
     double a, b;
     int n;
     cout << "Enter a b and n\n";

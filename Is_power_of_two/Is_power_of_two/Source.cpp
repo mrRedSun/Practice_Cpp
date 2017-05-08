@@ -18,6 +18,5 @@ int main()
 	}
 
 	cout << multidigit;
-	system("pause");
 	return 0;
 }

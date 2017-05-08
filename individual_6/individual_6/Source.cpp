@@ -35,8 +35,6 @@ void main()
 	cout << "Enter x " << endl;
 	
 	float x; cin >> x;
-	if (!cin) cerr << "incorrect value";
-	
 
 	cout << Horners_method(polynomial, x) << endl;
 	
